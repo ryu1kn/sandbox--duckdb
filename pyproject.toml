@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "sandbox-duckdb"
+version = "0.1.0"
+description = ""
+authors = ["Ryuichi Inagaki <ryuichi.inagaki.24@googlemail.com>"]
+readme = "README.md"
+packages = [{include = "sandbox_duckdb"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
