@@ -8,6 +8,8 @@ packages = [{include = "sandbox_duckdb"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+jupyterlab = "^3.6.2"
+duckdb = "^0.7.1"
 
 
 [build-system]
