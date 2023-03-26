@@ -10,6 +10,7 @@ packages = [{include = "sandbox_duckdb"}]
 python = "^3.11"
 jupyterlab = "^3.6.2"
 duckdb = "^0.7.1"
+pandas = "^1.5.3"
 
 
 [build-system]
